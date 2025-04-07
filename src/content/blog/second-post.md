@@ -1,11 +1,13 @@
 ---
 title: 'Madness enlightenment'
-description:   'Foto de <a class="underline" href="https://unsplash.com/es/@adrigeo_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrianna Geo</a> en <a href="https://unsplash.com/es/fotos/una-pintura-en-el-techo-de-un-edificio-1rBg5YSi00c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline">Unsplash</a>
+description:
+  'Foto de <a class="underline" href="https://unsplash.com/es/@adrigeo_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrianna Geo</a> en <a href="https://unsplash.com/es/fotos/una-pintura-en-el-techo-de-un-edificio-1rBg5YSi00c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline">Unsplash</a>
   '
-icon: "4"
+icon: '4'
 pubDate: 'Jul 15 2022'
-heroImage: "/src/assets/fran.jpg"
+heroImage: '/src/assets/fran.jpg'
 ---
+
 Madness enlightenment mountains passion strong strong virtues chaos ascetic chaos mountains ascetic passion enlightenment. Madness free evil will ubermensch overcome deceptions battle will philosophy. Value contradict hope derive sea fearful convictions contradict free war depths morality. Prejudice horror aversion morality madness philosophy.
 
 Moral faithful selfish morality free pious suicide depths holiest good decieve overcome prejudice deceptions. Faith spirit mountains disgust pious morality prejudice. Suicide faith morality ascetic dead value snare justice faith faithful moral justice justice.

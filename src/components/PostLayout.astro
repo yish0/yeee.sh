@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+import BlogPostCard from '@/components/blog/BlogPostCard.astro';
+
+const bgClasses = [
+  'bg-pgreen rounded-full',
+  'bg-pblue rounded-2xl',
+  'bg-ppink ',
+  'bg-pyellow rounded-md',
+];
+
+const getRandomClass = () => {
+  return bgClasses[Math.floor(Math.random() * bgClasses.length)];
+};
+---
+
+<section class="flex flex-col gap-4 text-center">
+  <p class="text-pblack">It is necessary to observe.</p>
+  <h2 class="text-4xl font-bold">Treated like a portrait.</h2>
+  <ul class="flex flex-wrap justify-center gap-8 py-20 md:justify-start">
+    {
+      posts.map((post) => {
+        const randomClass = getRandomClass();
+        return <BlogPostCard post={post} randomClass={randomClass} />;
+      })
+    }
+  </ul>
+</section>

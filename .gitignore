@@ -27,3 +27,6 @@ package-lock.json
 .netlify/
 
 bun.lock
+
+# 추가된 Vite 캐시
+.vite_cache/

@@ -15,7 +15,6 @@ Welcome to my personal portfolio demo repository! This project is a demonstratio
 - **tailwind.config.mjs**: Configuration file for Tailwind CSS.
 - **tsconfig.json**: TypeScript configuration file.
 
-
 ### 🧭 /src structure
 
 The `/src` directory contains the main source code for the project. Below is an overview of its structure:
@@ -82,7 +81,6 @@ src
   - `hamburgers.css`: Styles for the hamburger menu.
 
 This structure helps in organizing the project files and makes it easier to maintain and scale the project.
-
 
 ## 🚀 Getting Started
 

@@ -1,31 +1,29 @@
 ---
 const today = new Date();
-import { Icon } from "astro-icon/components";
+import { Icon } from 'astro-icon/components';
 ---
 
-<footer
-  class="flex flex-col items-center container mx-auto p-10 text-center gap-10 pb-40"
->
+<footer class="container mx-auto flex flex-col items-center gap-10 p-10 pb-40 text-center">
   &copy; {today.getFullYear()} Your name here. All rights reserved.
   <div class="flex items-center gap-6 text-5xl">
     <a
       href="https://jramma.com"
       target="_blank"
-      class="py-1 pl-3 rounded-md border-1 border-black bg-ppink shadow-card hover:shadow-hover transition"
+      class="rounded-md border-1 border-black bg-ppink py-1 pl-3 shadow-card transition hover:shadow-hover"
     >
       <Icon name="web" />
     </a>
     <a
       href="https://github.com/jramma"
       target="_blank"
-      class="border-1 p-1 border-black rounded-full bg-pblue shadow-card hover:shadow-hover transition"
+      class="rounded-full border-1 border-black bg-pblue p-1 shadow-card transition hover:shadow-hover"
     >
       <Icon name="github" />
     </a>
     <a
       href="https://www.linkedin.com/in/jramma/"
       target="_blank"
-      class="border-1 p-1 border-black rounded-full bg-pgreen shadow-card hover:shadow-hover transition"
+      class="rounded-full border-1 border-black bg-pgreen p-1 shadow-card transition hover:shadow-hover"
     >
       <Icon name="linkedin" />
     </a>
@@ -34,7 +32,7 @@ import { Icon } from "astro-icon/components";
     href="https://buymeacoffee.com/jramma"
     target="_blank"
     rel="noopener noreferrer"
-    class="bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-6 rounded-xl shadow-md flex items-center gap-2 transition duration-200"
+    class="flex items-center gap-2 rounded-xl bg-yellow-400 px-6 py-2 font-bold text-black shadow-md transition duration-200 hover:bg-yellow-300"
   >
     ☕ Invítame a un café
   </a>

@@ -1,10 +1,10 @@
 ---
-import BaseHead from "@/components/BaseHead.astro";
-import Header from "@/components/Header.astro";
-import Footer from "@/components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import Hero from "@/components/Hero.astro";
-import WhatIDo from "@/components/WhatIDo.astro";
+import BaseHead from '@/components/BaseHead.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Hero from '@/components/Hero.astro';
+import WhatIDo from '@/components/PostLayout.astro';
 ---
 
 <!doctype html>
@@ -12,7 +12,7 @@ import WhatIDo from "@/components/WhatIDo.astro";
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body class="p-0 m-0 max-w-screen">
+  <body class="max-w-screen m-0 p-0">
     <Header />
     <main class="container mx-auto md:px-10">
       <Hero />

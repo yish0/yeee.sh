@@ -1,0 +1,18 @@
+# 빌드 결과물
+dist/
+.astro/
+
+# 의존성 디렉토리
+node_modules/
+
+# 락 파일
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 기타 무시할 파일
+.DS_Store
+.env
+.env.*
+!.env.example

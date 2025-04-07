@@ -1,11 +1,11 @@
 ---
-title: "Markdown example"
+title: 'Markdown example'
 description:
   'Foto de <a class="underline" href="https://unsplash.com/es/@adrigeo_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrianna Geo</a> en <a href="https://unsplash.com/es/fotos/una-pintura-en-el-techo-de-un-edificio-1rBg5YSi00c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline">Unsplash</a>
   '
-icon: "1"
-pubDate: "Jul 08 2022"
-heroImage: "/src/assets/adriana.jpg"
+icon: '1'
+pubDate: 'Jul 08 2022'
+heroImage: '/src/assets/adriana.jpg'
 ---
 
 This example is from https://markdown-it.github.io/
@@ -148,14 +148,14 @@ Right aligned columns
 
 [link text](http://dev.nodeca.com)
 
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+[link with title](http://nodeca.github.io/pica/demo/ 'title text!')
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 ## Images
 
 ![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg 'The Stormtroopocat')
 
 Like links, Images also have a footnote style syntax
 
@@ -163,7 +163,7 @@ Like links, Images also have a footnote style syntax
 
 With a reference later in the document defining the URL location:
 
-[id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
+[id]: https://octodex.github.com/images/dojocat.jpg 'The Dojocat'
 
 ## Plugins
 
